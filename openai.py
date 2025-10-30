@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-#1) Implement a basic autoencoder and train it on a dataset like MNIST for image reconstruction.
-"""
+"""##1) Implement a basic autoencoder and train it on a dataset like MNIST for image reconstruction."""#
+
 
 import numpy as np
 import tensorflow as tf
@@ -47,7 +47,7 @@ for i in range(n):
     ax.axis('off')
 plt.show()
 
-"""# 2) Explore different regularization techniques such as L1/L2 regularization or dropout and compare their effects on the autoencoder's performance."""
+2) Explore different regularization techniques such as L1/L2 regularization or dropout and compare their effects on the autoencoder's performance."""
 
 import tensorflow as tf
 from tensorflow.keras import layers, models, regularizers, callbacks
